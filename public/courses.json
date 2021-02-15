@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Major ProSeminar",
+    "number": "300",
+    "units": 4,
+    "term": "Spring 2021 - Term A",
+    "description": ""
+  },
+  {
+    "name": "Software Design",
+    "number": "338",
+    "units": 4,
+    "term": "Spring 2021 - Term B",
+    "description": ""
+  },
+  {
+    "name": "Database Management",
+    "number": "363",
+    "units": 4,
+    "term": "Summer 2021 - Term A",
+    "description": ""
+  },
+  {
+    "name": "Operating System",
+    "number": "334",
+    "units": 4,
+    "term": "Summer 2021 - Term B",
+    "description": ""
+  },
+  {
+    "name": "Introduction to Computer Networking",
+    "number": "311",
+    "units": 4,
+    "term": "Fall 2021 - Term A",
+    "description": ""
+  },
+  {
+    "name": "Internet Programming",
+    "number": "336",
+    "units": 4,
+    "term": "Fall 2021 - Term B",
+    "description": ""
+  },
+  {
+    "name": "Race, Gender, Class in the Digital World",
+    "number": "462S",
+    "units": 3,
+    "term": "Spring 2022 - Term A",
+    "description": ""
+  },
+  {
+    "name": "Digital Art and Design",
+    "number": "328",
+    "units": 3,
+    "term": "Spring 2022 - Term A",
+    "description": ""
+  },
+  {
+    "name": "Algorithms",
+    "number": "370",
+    "units": 4,
+    "term": "Spring 2022 - Term B",
+    "description": ""
+  },
+  {
+    "name": "Introduction to Data Science",
+    "number": "383",
+    "units": 4,
+    "term": "Summer 2022 - Term ",
+    "description": ""
+  },
+  {
+    "name": "Reasoning with Logic",
+    "number": "329",
+    "units": 3,
+    "term": "Summer 2022 - Term B",
+    "description": ""
+  },
+  {
+    "name": "Software Engineering",
+    "number": "438",
+    "units": 4,
+    "term": "Fall 2022 - Term A",
+    "description": ""
+  },
+  {
+    "name": "Directed Group Capstone",
+    "number": "499",
+    "units": 4,
+    "term": "Fall 2022 - Term B",
+    "description": ""
+  }
+]

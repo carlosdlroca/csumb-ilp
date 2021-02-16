@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { render } from "react-dom";
 import styles from "../../styles/CoursePage.module.css";
 
 export default function Courses({ course }) {
@@ -10,9 +11,64 @@ export default function Courses({ course }) {
                 </title>
                 <link rel='icon' href='/favicon.ico' />
             </Head>
-            <main className={styles.main}>course name: {course.name}</main>
+            <main className={styles.main}>
+                <header className={styles.header}>
+                    <h1 className={styles.courseName}>
+                        {course.name}
+                        <span className={styles.courseNumber}>
+                            {course.number}
+                        </span>
+                    </h1>
+                    <div className={styles.courseDetails}>
+                        <p className={styles.courseTerm}>{course.term}</p>
+                        <p className={styles.courseUnits}>
+                            Units:&nbsp;{course.units}
+                        </p>
+                    </div>
+                </header>
+                <div className={styles.description}>
+                    <p>Course Description:</p> {course.description}
+                </div>
+                {course.projects && (
+                    <Projects
+                        projects={course.projects}
+                        courseNumber={course.number}
+                    />
+                )}
+            </main>
         </div>
     );
+}
+
+function Projects({ projects, courseNumber }) {
+    return (
+        <div className={styles.projects}>
+            {projects.map((project) => (
+                <div className={styles.project}>
+                    <h2 className={styles.projectTitle}>{project.title}</h2>
+                    <p className={styles.projectDescription}>
+                        {project.description}
+                    </p>
+                    <ProjectEmbed {...project} courseNumber={courseNumber} />
+                </div>
+            ))}
+        </div>
+    );
+}
+
+function ProjectEmbed({ courseNumber, type, ...details }) {
+    switch (type) {
+        case "pdf":
+            return (
+                <iframe
+                    className={styles.projectEmbed}
+                    src={`/courseFiles/${courseNumber}/${details.fileName}`}
+                    width='100%'
+                ></iframe>
+            );
+        default:
+            return <p>No project</p>;
+    }
 }
 
 export async function getStaticProps(ctx) {

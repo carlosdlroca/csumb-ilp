@@ -19,7 +19,20 @@ export default function Home() {
                 <h1 className={styles.title}>Carlos De La Roca</h1>
 
                 <p className={styles.description}>
-                    ILP Portfolio Website Shell
+                    Welcome to my ILP Portfolio Website!
+                </p>
+                <p className={styles.description}>
+                    I transferred from the beautiful school of Santa Monica
+                    College. I am a web developer and I am excited to continue
+                    my Computer Science Degree education.
+                </p>
+                <p className={styles.description}>
+                    The CS Degree Completion program, provided by Cal State
+                    Monterey Bay, is a fully online program that provides a
+                    balanced education in both Computer Science and Software
+                    Engineering. By the time I complete this degree, I will be a
+                    professional engineer with multiple completed projects and a
+                    robust education in Computer Science.
                 </p>
 
                 <div className={styles.grid}>

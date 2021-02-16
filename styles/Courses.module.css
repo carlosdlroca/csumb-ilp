@@ -1,0 +1,102 @@
+.container {
+
+  min-height: 100vh;
+  padding-bottom: 10rem;
+}
+
+.header {
+  background: var(--color-blue-csumb);
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
+.title {
+  font-size: clamp(5rem, 3vw, 5rem);
+  line-height: 1.7;
+}
+
+.description {
+  font-size: clamp(1.8rem, 2.1vw, 2.5rem);
+}
+
+.main {
+  display: grid;
+  place-items: center;
+  padding: 10rem 0;
+}
+
+.courses {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: min(95vw, 110rem);
+  row-gap: 6rem;
+  column-gap: 4rem;
+  list-style: none;
+}
+
+.course {
+  padding: 1rem;
+  border: 1px solid grey;
+  border-radius: .5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.courseName {
+  font-size: 2.4rem;
+  color: var(--color-blue-csumb);
+  line-height: 1.8;
+  transition: color .23s ease;
+}
+
+.courseName:hover, 
+.courseName:focus,
+.courseName:active {
+  color: var(--color-blue);
+}
+
+.details {
+  display: flex;
+  gap: 1rem;
+}
+
+.details p {
+  font-size: 2rem;
+  line-height: 1.7;
+}
+
+.details a {
+  color: var(--color-blue);
+  transition: all .2s ease;
+}
+
+.details a:hover,
+.details a:active,
+.details a:focus {
+  color: var(--color-purple);
+  text-decoration: underline;
+}
+
+@media (max-width: 37.5em) {
+  .courses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .course {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .courseName {
+    font-size: 3.4rem;
+  }
+
+  .details p {
+    font-size: 2.6rem;
+    text-align: center;
+  }
+}

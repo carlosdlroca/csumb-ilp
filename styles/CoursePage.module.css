@@ -93,6 +93,24 @@
 }
 
 @media (max-width: 56.25em) {
+  .container {
+    --padding: 3rem;
+  }
+  
+  .courseName {
+    align-self: stretch;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .courseNumber {
+    margin-left: 0;
+  }
+  .courseDetails {
+    align-self: stretch;
+    justify-content: space-between;
+  }
   
 }
 
@@ -106,18 +124,11 @@
     gap: 5rem;
   }
   
+
   .courseName {
-    align-self: stretch;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
     font-size: 3.8rem;
   }
-
   .courseNumber {
-    margin-left: 0;
     font-size: 3rem;
   }
 

@@ -44,7 +44,7 @@ function Projects({ projects, courseNumber }) {
     return (
         <div className={styles.projects}>
             {projects.map((project) => (
-                <div className={styles.project}>
+                <div className={styles.project} key={project.number}>
                     <h2 className={styles.projectTitle}>{project.title}</h2>
                     <p className={styles.projectDescription}>
                         {project.description}

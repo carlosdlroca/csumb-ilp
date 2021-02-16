@@ -4,7 +4,15 @@
     "number": "300",
     "units": 4,
     "term": "Spring 2021 - Term A",
-    "description": "Helps students identify and articulate personal, professional, and social goals. Provides an integrated overview of the computer science and communication design majors and their requirements. Students develop a plan for their learning goals. Students learn writing, presentation, research and critical-thinking skills within the diversified fields of information technology and communication design. Students learn how to analyze, predict, and articulate trends in the academic, public service,"
+    "description": "Helps students identify and articulate personal, professional, and social goals. Provides an integrated overview of the computer science and communication design majors and their requirements. Students develop a plan for their learning goals. Students learn writing, presentation, research and critical-thinking skills within the diversified fields of information technology and communication design. Students learn how to analyze, predict, and articulate trends in the academic, public service,",
+    "projects": [
+      {
+        "type": "pdf",
+        "title": "Industry Analysis Paper",
+        "description": "Designed to familiarize students with the tech industry, academic writing & research, and degree study.",
+        "fileName": "IndustryAnalysis.pdf"
+      }
+    ]
   },
   {
     "name": "Software Design",

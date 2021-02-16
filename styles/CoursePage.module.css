@@ -92,9 +92,17 @@
   height: 100rem;
 }
 
+@media (max-width: 56.25em) {
+  
+}
+
 @media (max-width: 37.5em) {
+  .container {
+    --padding: 2.5rem;
+  }
+  
   .header {
-    padding: 1rem 2.5rem 2.5rem;
+    padding-top: 1rem;
     gap: 5rem;
   }
   
@@ -112,4 +120,5 @@
     margin-left: 0;
     font-size: 3rem;
   }
+
 }

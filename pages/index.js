@@ -38,7 +38,7 @@ export default function Home() {
                 <div className={styles.grid}>
                     <Link href='/courses'>
                         <a className={styles.card}>
-                            <h3>Courses &rarr;</h3>
+                            <h2>Courses &rarr;</h2>
                             <p>
                                 Find in-depth information about the courses I
                                 have taken in my CS degree program
@@ -50,7 +50,7 @@ export default function Home() {
                         href='https://catalog.csumb.edu/preview_program.php?catoid=2&poid=421&returnto=107'
                         className={styles.card}
                     >
-                        <h3>Program&rarr;</h3>
+                        <h2>Program&rarr;</h2>
                         <p>
                             Learn about the Computer Science, BS Online Degree
                             Completion Program
@@ -61,7 +61,7 @@ export default function Home() {
                         href='https://csumb-carlos.blogspot.com/'
                         className={styles.card}
                     >
-                        <h3>CS Blog &rarr;</h3>
+                        <h2>CS Blog &rarr;</h2>
                         <p>
                             Join me and read about my journey through the CS
                             Degree program
@@ -69,7 +69,7 @@ export default function Home() {
                     </a>
 
                     <a href='https://carlosdlr.me' className={styles.card}>
-                        <h3>Portfolio &rarr;</h3>
+                        <h2>Portfolio &rarr;</h2>
                         <p>
                             Visit my Online Portfolio and check out my personal
                             projects{" "}

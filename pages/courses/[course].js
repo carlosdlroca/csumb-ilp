@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { render } from "react-dom";
 import styles from "../../styles/CoursePage.module.css";
 
 export default function Courses({ course }) {

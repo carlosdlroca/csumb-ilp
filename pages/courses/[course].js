@@ -6,10 +6,15 @@ export default function Courses({ course }) {
     return (
         <div className={styles.container}>
             <Head>
+                <html lang='en' />
                 <title>
                     {course.name} | {course.number}{" "}
                 </title>
                 <link rel='icon' href='/favicon.ico' />
+                <meta
+                    name='description'
+                    content={`${course.name} description page for Carlos De La Roca from California State University - Monterey Bay ILP`}
+                />
             </Head>
             <main className={styles.main}>
                 <header className={styles.header}>

@@ -67,6 +67,7 @@ function ProjectEmbed({ courseNumber, type, ...details }) {
                     className={styles.projectEmbed}
                     src={`/courseFiles/${courseNumber}/${details.fileName}`}
                     width='100%'
+                    title={details.title}
                 ></iframe>
             );
         default:

@@ -8,6 +8,10 @@ export default function Home() {
             <Head>
                 <title>Carlos De La Roca | ILP</title>
                 <link rel='icon' href='/favicon.ico' />
+                <meta
+                    name='description'
+                    content='Carlos De La Roca ILP Portfolio Website for California State University - Monterey Bay'
+                />
             </Head>
 
             <main className={styles.main}>

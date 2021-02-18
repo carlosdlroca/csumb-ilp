@@ -10,6 +10,10 @@ export default function Courses() {
             <Head>
                 <title>Carlos De La Roca | Courses</title>
                 <link rel='icon' href='/favicon.ico' />
+                <meta
+                    name='description'
+                    content='Carlos De La Roca. Cal State University - Monterey Bay Computer Science Online Courses and links to projects'
+                />
             </Head>
             <header className={styles.header}>
                 <h1 className={styles.title}>Program Courses</h1>

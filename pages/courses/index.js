@@ -8,7 +8,6 @@ export default function Courses() {
     return (
         <div className={styles.container}>
             <Head>
-                <html lang='en' />
                 <title>Carlos De La Roca | Courses</title>
                 <link rel='icon' href='/favicon.ico' />
                 <meta

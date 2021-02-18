@@ -5,7 +5,6 @@ export default function Courses({ course }) {
     return (
         <div className={styles.container}>
             <Head>
-                <html lang='en' />
                 <title>
                     {course.name} | {course.number}{" "}
                 </title>

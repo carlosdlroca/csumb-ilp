@@ -38,9 +38,9 @@ function CourseItem({ name, number, description }) {
         <li className={styles.course}>
             <Link href={href}>
                 <a>
-                    <h3 className={styles.courseName}>
+                    <h2 className={styles.courseName}>
                         {name} - {number}
-                    </h3>
+                    </h2>
                 </a>
             </Link>
             <div className={styles.details}>

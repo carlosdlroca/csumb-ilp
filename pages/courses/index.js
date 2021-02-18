@@ -14,7 +14,7 @@ export default function Courses() {
                 <meta
                     name='description'
                     content='Carlos De La Roca. Cal State University - Monterey Bay Computer Science Online Courses and links to projects'
-                />
+                ></meta>
             </Head>
             <header className={styles.header}>
                 <h1 className={styles.title}>Program Courses</h1>

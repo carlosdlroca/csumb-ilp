@@ -14,7 +14,7 @@ export default function Courses({ course }) {
                 <meta
                     name='description'
                     content={`${course.name} description page for Carlos De La Roca from California State University - Monterey Bay ILP`}
-                />
+                ></meta>
             </Head>
             <main className={styles.main}>
                 <header className={styles.header}>

@@ -12,7 +12,7 @@ export default function Home() {
                 <meta
                     name='description'
                     content='Carlos De La Roca ILP Portfolio Website for California State University - Monterey Bay'
-                />
+                ></meta>
             </Head>
 
             <main className={styles.main}>

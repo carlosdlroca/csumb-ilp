@@ -11,6 +11,12 @@
         "title": "Industry Analysis Paper",
         "description": "Designed to familiarize students with the tech industry, academic writing & research, and degree study.",
         "fileName": "IndustryAnalysis.pdf"
+      },
+      {
+        "type": "pdf",
+        "title": "Ethics Paper - Digitizing Human Consciousness",
+        "description": "requires students to examine multiple perspectives and take a stance on a technology-related issue, polish academic writing and research, and exercise critical thinking skills.",
+        "fileName": "EthicsPaper.pdf"
       }
     ]
   },

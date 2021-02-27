@@ -79,12 +79,12 @@
 }
 
 .projectTitle {
-  font-size: 4rem;
+  font-size: clamp(3rem,2.7vw,4rem);
   color: var(--color-blue-csumb);
 }
 
 .projectDescription {
-  font-size: 2.8rem;
+  font-size: clamp(2rem, 2.5vw, 2.8rem);
   color: var(--color-text-dark);
 }
 
@@ -119,9 +119,12 @@
     --padding: 3rem;
   }
   
+  .project {
+    gap: 3rem;
+  }
+  
   .courseName {
     align-self: stretch;
-  
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -146,7 +149,6 @@
     gap: 5rem;
   }
   
-
   .courseName {
     font-size: 3.8rem;
   }

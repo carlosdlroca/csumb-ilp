@@ -32,6 +32,7 @@ export default function Courses({ course }) {
                 <div className={styles.description}>
                     <p>Course Description:</p> {course.description}
                 </div>
+                <ProjectLinks projects={course.projects}/>
                 {course.projects && (
                     <Projects
                         projects={course.projects}
@@ -48,7 +49,7 @@ function Projects({ projects, courseNumber }) {
         <div className={styles.projects}>
             {projects.map((project) => (
                 <div className={styles.project} key={project.number}>
-                    <h2 className={styles.projectTitle}>{project.title}</h2>
+                    <h2 id={`${project.title.split(" ").join("-").toLowerCase()}`} className={styles.projectTitle}>{project.title}</h2>
                     <p className={styles.projectDescription}>
                         {project.description}
                     </p>
@@ -85,6 +86,19 @@ function ProjectEmbed({ courseNumber, type, ...details }) {
         default:
             return <p>No project</p>;
     }
+}
+
+function ProjectLinks({projects}) {
+    if(!projects)
+        return null;
+    return (
+        <div className={styles.projectLinks}>
+            <h2 className={styles.projectLinksHeaderText}>Project Links: </h2>
+            {projects.map(project => (
+                <a className={styles.projectLink} href={`#${project.title.split(" ").join("-").toLowerCase()}`}>{project.title}</a>
+            ))}
+        </div>
+    )
 }
 
 export async function getStaticProps(ctx) {

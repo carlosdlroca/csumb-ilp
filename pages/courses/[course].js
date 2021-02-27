@@ -70,6 +70,18 @@ function ProjectEmbed({ courseNumber, type, ...details }) {
                     title={details.title}
                 ></iframe>
             );
+        case "youtube":
+            return (
+                <div className={styles.projectWrapper}>
+                    <iframe 
+                        className={styles.projectEmbedVideo} 
+                        src={`https://www.youtube.com/embed/${details.url}`} 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            )
         default:
             return <p>No project</p>;
     }

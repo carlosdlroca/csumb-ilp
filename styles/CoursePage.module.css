@@ -93,6 +93,27 @@
   height: 100rem;
 }
 
+.projectWrapper {
+  overflow: hidden;
+  position: relative;
+  width: min(100%, 100rem);
+  margin: 0 auto;
+}
+
+.projectWrapper::after {
+  padding-top: 56.25%;
+  display: block;
+  content: "";
+}
+
+.projectEmbedVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 @media (max-width: 56.25em) {
   .container {
     --padding: 3rem;

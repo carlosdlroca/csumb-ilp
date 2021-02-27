@@ -15,8 +15,20 @@
       {
         "type": "pdf",
         "title": "Ethics Paper - Digitizing Human Consciousness",
-        "description": "requires students to examine multiple perspectives and take a stance on a technology-related issue, polish academic writing and research, and exercise critical thinking skills.",
+        "description": "Requires students to examine multiple perspectives and take a stance on a technology-related issue, polish academic writing and research, and exercise critical thinking skills.",
         "fileName": "EthicsPaper.pdf"
+      },
+      {
+        "type": "youtube",
+        "title": "Trends In Cryptography (Long Video)",
+        "description": "This presentation focuses on Cryptography. We define what Cryptography is, discuss its role in our history, and present the ways it is used to secure every aspect of our lives.",
+        "url": "vC2s_N4euLw"
+      },
+      {
+        "type": "youtube",
+        "title": "Trends In Cryptography (Short Video)",
+        "description": "This presentation is a crash course in Cryptography. Learn about the importance of Cryptography and how you can use it to send secrete messages to your friends.",
+        "url": "ZiBBPKZNK7E"
       }
     ]
   },

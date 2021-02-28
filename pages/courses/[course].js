@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from "../../styles/CoursePage.module.css";
+import styles from "./styles/CoursePage.module.css";
 
 export default function Courses({ course }) {
     return (

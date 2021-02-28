@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 
-import styles from "../../styles/Courses.module.css";
+import styles from "./styles/index.module.css";
 import courses from "../../public/courses.json";
 
 export default function Courses() {

@@ -10,8 +10,7 @@ export default function Home() {
                 <link rel='icon' href='/favicon.ico' />
                 <meta
                     name='description'
-                    content='Carlos De La Roca ILP Portfolio Website for California State University - Monterey Bay'
-                ></meta>
+                    content='Carlos De La Roca ILP Portfolio Website for California State University - Monterey Bay'></meta>
             </Head>
 
             <main className={styles.main}>
@@ -52,8 +51,7 @@ export default function Home() {
 
                     <a
                         href='https://catalog.csumb.edu/preview_program.php?catoid=2&poid=421&returnto=107'
-                        className={styles.card}
-                    >
+                        className={styles.card}>
                         <h2>Program&rarr;</h2>
                         <p>
                             Learn about the Computer Science, BS Online Degree
@@ -63,8 +61,7 @@ export default function Home() {
 
                     <a
                         href='https://csumb-carlos.blogspot.com/'
-                        className={styles.card}
-                    >
+                        className={styles.card}>
                         <h2>CS Blog &rarr;</h2>
                         <p>
                             Join me and read about my journey through the CS
@@ -72,7 +69,7 @@ export default function Home() {
                         </p>
                     </a>
 
-                    <a href='https://carlosdlr.me' className={styles.card}>
+                    <a href='' className={styles.card}>
                         <h2>Portfolio &rarr;</h2>
                         <p>
                             Visit my Online Portfolio and check out my personal

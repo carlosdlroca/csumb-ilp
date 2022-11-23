@@ -40,7 +40,7 @@ function CourseItem({ name, number, description }) {
     const href = `/courses/${number}`;
     return (
         <li className={styles.course}>
-            <Link href={href}>
+            <Link href={href} legacyBehavior>
                 <a>
                     <h2 className={styles.courseName}>
                         {name} - {number}
@@ -50,7 +50,7 @@ function CourseItem({ name, number, description }) {
             <div className={styles.details}>
                 <p>
                     {description.substring(0, 112)}&hellip;
-                    <Link href={href}>
+                    <Link href={href} legacyBehavior>
                         <a>[Read More]</a>
                     </Link>
                 </p>

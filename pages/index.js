@@ -39,7 +39,7 @@ export default function Home() {
                 </p>
 
                 <div className={styles.grid}>
-                    <Link href='/courses'>
+                    <Link href='/courses' legacyBehavior>
                         <a className={styles.card}>
                             <h2>Courses &rarr;</h2>
                             <p>

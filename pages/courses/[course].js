@@ -46,17 +46,40 @@ export default function Courses({ course }) {
 
 function Projects({ projects, courseNumber }) {
     return (
+    <div className={styles.projects}>
+        {projects.map((project) => i(project, courseNumber))}
+    </div>
+    )
+}
+
+function i(project, courseNumber) {
+    if (project.type == "link") {
+        return (
         <div className={styles.projects}>
-            {projects.map((project) => (
-                <div className={styles.project} key={project.number}>
-                    <h2 id={`${project.title.split(" ").join("-").toLowerCase()}`} className={styles.projectTitle}>{project.title}</h2>
-                    <p className={styles.projectDescription}>
-                        {project.description}
-                    </p>
-                    <ProjectEmbed {...project} courseNumber={courseNumber} />
-                </div>
-            ))}
+            <div className={styles.project} key={project.number}>
+                <a 
+                    id={`${project.title.split(" ").join("-").toLowerCase()}`} 
+                    className={styles.projectTitle}
+                    href={project.link}
+                    target="_blank"
+                >
+                        {project.title}
+                </a>
+                <p className={styles.projectDescription}>
+                    {project.description}
+                </p>
+            </div>
         </div>
+        )
+    }
+    return (
+        <div className={styles.project} key={project.number}>
+        <h2 id={`${project.title.split(" ").join("-").toLowerCase()}`} className={styles.projectTitle}>{project.title}</h2>
+        <p className={styles.projectDescription}>
+            {project.description}
+        </p>
+        <ProjectEmbed {...project} courseNumber={courseNumber} />
+    </div>
     );
 }
 
@@ -83,8 +106,24 @@ function ProjectEmbed({ courseNumber, type, ...details }) {
                     </iframe>
                 </div>
             )
+        case "images": 
+                return(
+                    <div className={styles.projectWrapper}>
+                        {details.images.map(image_link => (
+                            <div style={{marginBottom: "15rem"}}>
+                                <p style={{fontSize: "5rem"}}>{image_link}</p>
+                                <img style={{width:"100%", display: "block", border: "2px dotted black"}}src={`/courseFiles/${courseNumber}/${image_link}`} />
+                            </div>
+                            )
+                        )}
+                    </div>
+                )
+        case "basic":
+            return (
+                <></>              
+            )
         default:
-            return <p>No project</p>;
+            return <p></p>;
     }
 }
 

@@ -37,7 +37,15 @@
     "number": "338",
     "units": 4,
     "term": "Spring 2021 - Term B",
-    "description": "Provides students with the fundamental concepts to develop large-scale software, focusing on the object-oriented programming techniques. Coverage includes the introduction to Java programming language, object-oriented programming, software life cycle and development processes, requirements analysis, and graphical user interface development."
+    "description": "Provides students with the fundamental concepts to develop large-scale software, focusing on the object-oriented programming techniques. Coverage includes the introduction to Java programming language, object-oriented programming, software life cycle and development processes, requirements analysis, and graphical user interface development.",
+    "projects": [
+      {
+        "type": "link",
+        "title": "Module 8 Blog Post {link}",
+        "link": "https://csumb-carlos.blogspot.com/2021/04/cst-338-module-8-farewell.html",
+        "description": "Answered the following questions: They say hindsight is 20/20, what advice would you give to the next cohort regarding this course? & How much do you envision using the skills you gained in this course in your career?"
+      }
+    ]
   },
   {
     "name": "Database Management",
@@ -45,6 +53,13 @@
     "units": 4,
     "term": "Summer 2021 - Term A",
     "description": "This course provides balanced coverage of database use and design,focusing on relational databases. Students will learn to design relational schemas, write SQL queries, access a DB programmatically,and perform database administration. Students will gain a working knowledge of the algorithms and data structures used in query evaluation and transaction processing. Students will also learn to apply newer database technologies such as XML, NoSQL, and Hadoop."
+    ,"projects": [
+      {
+        "type": "basic",
+        "title": "Overall Learning Experience",
+        "description": "This was my favorite class in this program. I thought the pace of this course suited my learning style. Every week, we solved new SQL problems using a dataset. We worked with MySQL and MySQL workbench. We learned about Views and how Databases work with them. It was great learning about other types of databases as well, like Graph Databases, REDIS, MONGODB, etc. I learned how to make ERD models and found a really great website to generate these models in a pretty way: drawsql.app"
+      }
+    ]
   },
   {
     "name": "Operating System",
@@ -52,6 +67,13 @@
     "units": 4,
     "term": "Summer 2021 - Term B",
     "description": "Students in this course will learn about the use and design of modern operating systems, focusing on Linux. On the “use” side, students will learn the Linux command line, to write shell scripts, and to build programs with GNU utilities like awk, sed, and make. On the “design” side, students will develop a deep understanding of process management, memory management, file systems, and concurrency, and how they apply to modern technologies like virtualization and cloud computing."
+    ,"projects": [
+      {
+        "type": "basic",
+        "title": "Overall Learning Experience",
+        "description": "This class was fun. I got to learn about procedures, FIFO, Red Robin, SEMAPHORES, etc. It was also really challenging"
+      }
+    ]
   },
   {
     "name": "Introduction to Computer Networking",
@@ -59,6 +81,13 @@
     "units": 4,
     "term": "Fall 2021 - Term A",
     "description": "Survey of Telecomm and Data Comm Technology Fundamentals, Local Area Network, Wide Area Network, Internet and internetworking protocols including TCP/IP, network security and performance, emerging industry trends such as voice over the network and high speed networking. Designed as a foundation for students who wish to pursue more advanced network studies including certificate programs. Includes hands-on networking labs that incorporate Cisco CCNA lab components."
+    ,"projects": [
+      {
+        "type": "basic",
+        "title": "Final Project",
+        "description": "For the final project of this course, we worked on a chatroom application using Python. IT was fun using concepts from the free textbook and applying them in the final project. The professor was amazing and would provide constant feedback on our homework assignments and tests. I appreciated all the help he provided me during a few rough modules. My favorite learning outcome from this class was learning about threading in Python. We got to implement multithreading to handle client connections."
+      }
+    ]
   },
   {
     "name": "Internet Programming",
@@ -66,6 +95,32 @@
     "units": 4,
     "term": "Fall 2021 - Term B",
     "description": "Provides students with dynamic web application development skills, focusing on the integration of server-side programming, database connectivity, and client-side scripting. Coverage includes the Internet architecture, responsive design, RESTful web services, and Web APIs. "
+    ,"projects": [
+      {
+        "type": "images",
+        "images": ["Module1-CloudProviders-Page1.png", "Module1-CloudProviders-AWS.png", "Module1-CloudProviders-Azure.png", "Module1-CloudProviders-GCP.png"],
+        "title": "Module 1: Homework HTML & CSS",
+        "description": "Create a basic website with HTML and CSS and multiple pages linked with a tags"
+      },
+      {
+        "type": "images",
+        "images": ["Module2-BobaShop-Homepage.png", "Module2-BobaShop-Shoppingcart.png", "Module2-BobaShop-Footer.png"],
+        "title": "Module 2: Homework Javascript",
+        "description": "Created an interactive website using Javascript. I love boba so I decided to build a super simple boba shop website. Which flavor will you get?"
+      },
+      {
+        "type": "images",
+        "images": ["Module3-WeatherApp-Home.png", "Module3-WeatherApp-Losangeles.png"],
+        "title": "Module 3: WebAPI",
+        "description": "Create another interactive website but now utilize data from an API. I made a website using a public/open/free Weather API to show the weather of whichever city you type in."
+      },
+      {
+        "type": "images",
+        "images": ["main-page.png", "hotels-page.png", "sign-up-page.png"],
+        "title": "Final Project: Hotel Iberica",
+        "description": "Created a hotel booking site using Express on the backend, and serving HTML/CSS/JS on the frontend and using EJS as a templating language/engine. It was fun to work with my classmates to make this work,"
+      }
+    ]
   },
   {
     "name": "Race, Gender, Class in the Digital World",
@@ -73,6 +128,18 @@
     "units": 3,
     "term": "Spring 2022 - Term A",
     "description": "Provides students with key knowledge of race, gender, class and social justice especially in relation to technology in today’s digital world. Students challenge the barriers of expertise, gender, race, class, and location that restrict wider access to and understanding of the production and usage of new technologies. Students will engage in a practical experience in the community via their service placements, which will provide depth and context for considering questions of justice, equality, social responsibilities and the complexities of technology and its societal impact. The course uses scenario based approach combining presentations, discussions, and reflections to allow students explore the relationship between critical reflection and action on the topics mentioned above. "
+    ,"projects": [
+      {
+        "type": "basic",
+        "title": "Service Learning Project",
+        "description": "I chose to partner up with itisOVERDUE.\nTask: I will be moving their static website onto shopify. This will grant freedom to the administrators of the org to have more ownership of their work and freely add any additional resources to their website."
+      },
+      {
+        "type": "basic",
+        "title": "Service Learning Project: Outcome",
+        "description": "I did not manage to complete the assignment for itsOVERDUE but I did infact get to learn about Shopify and its Liquid templating language. It was fun to try to build out their website, even though they ended up using another design. Learning to program on Shopify will help me build a freelancing side-hustle."
+      }
+    ]
   },
   {
     "name": "Digital Art and Design",
@@ -80,6 +147,38 @@
     "units": 3,
     "term": "Spring 2022 - Term A",
     "description": "A survey course that combines the study of technology, design and aesthetic principles as they apply to twenty-first century visual media. Students learn how fundamental concepts of art and design apply to a broad range of commercial, expressive and entertainment forms. Students also study the democratization of the creative process through digital media, using current technology to produce sophisticated and expressive examples of personal digital creativity."
+    ,"projects": [
+      {
+        "type": "images",
+        "title": "Module 1: Photoshop Basics Homework Assignment",
+        "description": "Learn the basics of Adobe Photoshop",
+        "images": ["PhotoshopBasics.jpg"]
+      },
+      {
+        "type": "images",
+        "title": "Module 1: AI Basics Homework Assignment",
+        "description": "Learn the basics of Adobe AI",
+        "images": ["AI-Basics.png"]
+      },
+      {
+        "type": "images",
+        "title": "Module 2: Abstract Art Project",
+        "description": "Create abstract illustrations using Adobe AI",
+        "images": ["AbstractArt.png"]
+      },
+      {
+        "type": "images",
+        "title": "Module 3: Business Card Project",
+        "description": "Build a business card using Adobe AI",
+        "images": ["BusinessCard.png"]
+      },
+      {
+        "type": "images",
+        "title": "Final Project Modules 6 - 8",
+        "description": "Prototype an application using Adobe XD",
+        "images": ["FinalProject-FinalResult.png", "FinalProject-IterativeProcess.png"]
+      }
+    ]
   },
   {
     "name": "Design and Analysis of Algorithms",
@@ -87,6 +186,13 @@
     "units": 4,
     "term": "Spring 2022 - Term B",
     "description": "Students learn important data structures in computer science and acquire fundamental algorithm design techniques to get the efficient solutions to several computing problems from various disciplines. Topics include the analysis of algorithm efficiency, hash, heap, graph, tree, sorting and searching, brute force, divide-and-conquer, decrease-and-conquer, transform-and-conquer, dynamic programming, and greedy programming."
+    ,"projects": [
+      {
+        "type":"basic",
+        "title": "General Info",
+        "description": "In this class, we would solve increasingly difficult algorithm questions every week. We were able to choose between Java or C++ to create our algorithms. I think this was one of my toughest courses in this program. We constantly had to reapply knowledge from Discrete Mathematics. I think the hardest topic was working with paths/graphs. It was great to be able to challenge myself week by week. 10/10"
+      }
+    ]
   },
   {
     "name": "Introduction to Data Science",
@@ -94,6 +200,13 @@
     "units": 4,
     "term": "Summer 2022 - Term ",
     "description": "In data science, data analysis and machine learning techniques are applied to visualize data, understand trends, and make predictions. In this course students will learn how to obtain data, preprocess it, apply machine learning methods, and visualize the results. A student who completes the course will have enough theoretical knowledge, and enough skill with modern statistical programming languages and their libraries,to define and perform complete data science projects."
+    ,"projects": [
+      {
+        "type": "basic",
+        "title": "Final Project",
+        "description": "This final project tasked us to build a machine learning algorithm using data from the internet. We decided to use a dataset containing pricing information of King County in Seattle. This project, we used Linear Regression to model the data set and come up with predictions on home prices based on average salaries of a given neighborhood. This assignment was difficult and we constantly had contact with the professor to guide us through our project."
+      }
+    ]
   },
   {
     "name": "Reasoning with Logic",
@@ -101,6 +214,13 @@
     "units": 3,
     "term": "Summer 2022 - Term B",
     "description": "In this course students learn to develop skill in using logic to describe and assess arguments. Students will learn to write formulas in propositional and first-order logic, and more importantly, to write and check proofs. Students will also learn to write formulas in three-valued and modal logic, know how to choose an appropriate logic, and understand the limitations of logic in capturing human reasoning."
+    ,"projects": [
+      {
+        "type": "basic",
+        "title": "Learning Outcomes",
+        "description": "This class was super fun. i got to figure out logic puzzles throughout the course. Although it was really difficult, I felt that I learned how to reason more with logic and I learned better ways to utilize booleans for my programming assignments at work. 10/10 course"
+      }
+    ]
   },
   {
     "name": "Software Engineering",
@@ -108,6 +228,13 @@
     "units": 4,
     "term": "Fall 2022 - Term A",
     "description": "Prepares students for large-scale software development using software engineering principles and techniques. Coverage includes software process, requirements analysis and specification, software design, implementation, testing, and project management. Students are expected to work in teams to carry out a realistic software project."
+    ,"projects": [
+      {
+        "type": "basic",
+        "title": "Final Project",
+        "description": "This was a tough course. We learned how to connect different backend services to work with one application. I got to work with Miki. I took care of the registration backend while Miki took care of the gradebook application. We created these services using JavaSprintBoot and RabbitMQ to handle messaging Queues. Java is personally not my favorite programming language to work with BUT i did sort of enjoy learning how to set up a backend server with Java SpringBoot. I still feel like building a backend using either Python or JavaScript is faster and easier. One new thing we learned was RabbitMQ which with allowed communication between REST applications using a message queue. Now any messages sent from either services will not get lost if any of them go down. "
+      }
+    ]
   },
   {
     "name": "Directed Group Capstone",
@@ -115,5 +242,12 @@
     "units": 4,
     "term": "Fall 2022 - Term B",
     "description": "Students will work on a project in large groups (up to 5 students in each group), developing requirements specification, a solution plan followed by design and implementation of the solution. The problem statement for the projects will be selected by the faculty. Faculty will also play the role of a project manager directing the schedule and deliverables for these projects."
+    ,"projects": [
+      {
+        "type": "basic",
+        "title": "CAPSTONE: Ultimate Recipe",
+        "description": "I worked with Orion Analytics to work on a Recipe Aggregation application on the web. We decided to use a recipe API to get recipe information and allow users to save the recipe information on their profiles. This project is built with ReactJS on the frontend and expressJS on the backend."
+      }
+    ]
   }
 ]

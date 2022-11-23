@@ -124,6 +124,12 @@
 .projectTitle {
   color: var(--color-blue-csumb);
   font-size: clamp(3rem,2.7vw,4rem);
+  transition: color .3s ease;
+}
+
+a.projectTitle:hover {
+  color: red;
+
 }
 
 .projectDescription {

@@ -41,7 +41,7 @@
     "projects": [
       {
         "type": "link",
-        "title": "Module 8 Blog Post {link}",
+        "title": "Module 8 Blog Post",
         "link": "https://csumb-carlos.blogspot.com/2021/04/cst-338-module-8-farewell.html",
         "description": "Answered the following questions: They say hindsight is 20/20, what advice would you give to the next cohort regarding this course? & How much do you envision using the skills you gained in this course in your career?"
       }
@@ -71,7 +71,7 @@
       {
         "type": "basic",
         "title": "Overall Learning Experience",
-        "description": "This class was fun. I got to learn about procedures, FIFO, Red Robin, SEMAPHORES, etc. It was also really challenging"
+        "description": "This class was fun. I got to learn about procedures, FIFO, Red Robin, SEMAPHORES, etc. It was also really challenging. I felt like this one was one of the hardest classes in this course. Its difficult to understand when I would need to use this information but it is still important to know this information. It trains your brain to understand how and why a computer works. There was little overlap between what I learn in this Operating Systems class versus when I first learned it at Santa Monica College. This course was more theoretical than the one in SMC so I got exposure to both Operating systems courses"
       }
     ]
   },
@@ -247,6 +247,22 @@
         "type": "basic",
         "title": "CAPSTONE: Ultimate Recipe",
         "description": "I worked with Orion Analytics to work on a Recipe Aggregation application on the web. We decided to use a recipe API to get recipe information and allow users to save the recipe information on their profiles. This project is built with ReactJS on the frontend and expressJS on the backend."
+      },
+      {
+        "type": "youtube",
+        "title": "Capstone Video",
+        "description": "This presentation is a crash course in Cryptography. Learn about the importance of Cryptography and how you can use it to send secret messages to your friends.",
+        "url": "k5Y4sM3Ztf8"
+      },
+      {
+        "type": "pdf",
+        "title": "Proposal",
+        "fileName": "proposal.pdf"
+      },
+      {
+        "type": "pdf",
+        "title": "Final Report",
+        "fileName": "final.pdf"
       }
     ]
   }
